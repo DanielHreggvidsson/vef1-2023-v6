@@ -143,6 +143,25 @@ img {
   gap: var(--vertical-space);
 }
 
+/** Meginmál **/
+.main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  gap: var(--vertical-space);
+  width: var(--width-offset);
+  max-width: var(--max-width);
+}
+
+/* Opnunartími */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: var(--spacing);
+}
+
 /** Haus **/
 .header {
   display: flex;
@@ -185,16 +204,6 @@ img {
   list-style: none;
 }
 
-/** Meginmál **/
-.main {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 100%;
-  gap: var(--vertical-space);
-  width: var(--width-offset);
-  max-width: var(--max-width);
-}
-
 /** Fótur **/
 .footer {
   padding: var(--spacing);
@@ -209,6 +218,10 @@ img {
   gap: var(--vertical-space);
   margin: 0 auto;
   text-align: center;
+}
+
+.footer ul {
+  list-style: none;
 }
 
 @media (min-width: 500px) {
@@ -226,11 +239,6 @@ img {
     grid-column-start: 3;
   }
 }
-
-.footer ul {
-  list-style: none;
-}
-
 /* Box! */
 .boxes {
   display: grid;
@@ -291,15 +299,6 @@ img {
     max-height: 350px;
   }
 }
-/* Opnunartími */
-dt {
-  font-weight: bold;
-}
-
-dd {
-  margin-bottom: var(--spacing);
-}
-
 /* Matseðill */
 table {
   border-spacing: 0;
