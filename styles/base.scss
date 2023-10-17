@@ -20,14 +20,14 @@
     font-family: 'Lora';
     font-style: normal;
     font-display: swap;
-    src: url(./fonts/Lora-VariableFont_wght.ttf) format('woff');
+    src: url("./fonts/Lora-VariableFont_wght.ttf") format('woff');
   }
   
   @font-face {
     font-family: 'Noto Sans Display';
     font-style: normal;
     font-display: swap;
-    src: url(./fonts/NotoSansDisplay-VariableFont.ttf) format('woff');
+    src: url("./fonts/NotoSansDisplay-VariableFont.ttf") format('woff');
   }
   
   /* Stillingar */
@@ -143,6 +143,7 @@
       opacity: 0;
       
     }
+
     to {
       opacity: 1;
     }
@@ -389,7 +390,7 @@
     width: 100%;
   }
   
-  fieldset input[type='checkbox'] {
+  fieldset input[type='checkbox'] { /* stylelint-disable */
     width: auto;
   }
   
